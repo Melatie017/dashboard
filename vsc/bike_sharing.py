@@ -9,7 +9,7 @@ sns.set(style='dark')
 # Fungsi untuk mengambil data
 def load_data():
     # Gantilah 'path_to_hour_df' dengan lokasi file hour_df.csv
-    hour_df = pd.read_csv('dataku.csv')
+    hour_df = pd.read_csv('https://raw.githubusercontent.com/Melatie017/dashboard/main/vsc/dataku.csv')
     return hour_df
 
 # Memuat data
